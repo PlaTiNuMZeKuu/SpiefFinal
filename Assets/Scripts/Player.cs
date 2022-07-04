@@ -17,7 +17,6 @@ public class Player : MonoBehaviour
         {
             i.PickUpItem();
         }
-        ScoreManager.instance.AddPoint();
         //clear list
         NearbyItems.Clear();
     }

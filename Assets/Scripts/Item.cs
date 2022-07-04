@@ -18,6 +18,8 @@ public class Item : MonoBehaviour
     {
         //pick up the object
         inventory.AddItem(this);
+        ScoreManager.instance.AddPoint();
+        this.gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
