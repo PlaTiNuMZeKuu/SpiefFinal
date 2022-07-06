@@ -18,7 +18,7 @@ public class Item : MonoBehaviour
     {
         //pick up the object
         inventory.AddItem(this);
-        ScoreManager.instance.AddPoint();
+        ScoreManager.instance.AddPoints((int)weight);
         this.gameObject.SetActive(false);
     }
 
