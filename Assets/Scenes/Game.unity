@@ -842,7 +842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d53220aa3fe841a8bfcf47a9c134638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeValue: 100
+  timeValue: 120
   timerText: {fileID: 284382248}
   endingScene: 
 --- !u!114 &284382248
